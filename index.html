@@ -1,11 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freelancer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Freelancer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Responsive design</h1>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <div class="logo">Freelancer</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <a href="#"><button class="btn1">Register</button></a>
+      </ul>
+       <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hy! I Am<br><span>Shamima Akhi</span></h1><br>
+      <p class="myP">Service Line helps you to turn your complex multisite,multivendor <br> imaging environment into a uniform and balanced operation.</p><br>
+      <button class="btn">Get Started</button>
+    </div>
+    <div class="hero-img-container">
+      <div class="circle-vector"></div>
+      
+      <img src="images\hero-img.jpg" alt="Shamima Akhi" class="hero-img" />
+    </div>   
+  </section>
+
+  <!-- COUNTERS -->
+  <section class="counters">
+    <div class="counter"><h2>258+</h2><p >Positive Feedback</p><br><p class="myPP">From our clients</p></div>
+    <div class="counter"><h2>590k</h2><p>Project Complete</p><br><p  class="myPP">My Achievement</p></div>
+    <div class="counter"><h2>28+</h2><p>Years of Experience</p><br><p  class="myPP">High quailified</p></div>
+  </section>
+
+  <!-- SERVICES & BENEFITS -->
+  <section class="section">
+    <h3>BENEFITS</h3>
+    <h2>Benefits You Get When Using Our Services</h2>
+    <div class="benefits">
+      <p>Best Quality Service</p>
+      <p>Flexible Project Planning</p>
+      <p>Guaranteed Delivery</p>
+    </div>
+
+    <h2>What we have for you</h2>
+    <div class="cards">
+      <div class="card"><h4>Corporate Web Design</h4><p>A marketing tool that is a complete solution for bringing your company within reach of your target market.</p></div>
+      <div class="card"><h4>Illustration Graphic</h4><p>Professional design illustrations...</p></div>
+      <div class="card"><h4>Development System</h4><p>Functional and fast websites...</p></div>
+      <div class="card"><h4>Web Maintenance Service</h4><p>Ongoing support and updates...</p></div>
+      <div class="card"><h4>SEO Service</h4><p>Rank higher and gain visibility...</p></div>
+      <div class="card"><h4>UX/UI Design</h4><p>Intuitive user experience and polish...</p></div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section">
+    <h2>Some of my Creative work</h2>
+    <div class="gallery">
+      <img src="images\Work1.jpg" alt="Work 1" />
+      <img src="images\Work2.jpg" alt="Work 2" />
+      <img src="images\Work3.jpg" alt="Work 3" />
+      <img src="images\Work4.jpg" alt="Work 4" />
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing">
+    <h2>Available prices and cheap packages</h2>
+    <div class="plans">
+      <div class="plan"><h3>Basic</h3><p>$12 /month</p><button class="bttn">Get Started</button></div>
+      <div class="plan"><h3>Premium</h3><p>$24 /month</p><button class="btn">Get Started</button></div>
+      <div class="plan"><h3>Super</h3><p>$32 /month</p><button class="bttn">Get Started</button></div>
+    </div>
+  </section>
+
+  <!-- SUBSCRIBE -->
+  <section class="subscribe">
+    <h3>Subscribe to get update info from us</h3>
+    <button class="btn">Subscribe</button>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <h3>Cartrix</h3>
+        <p>An all Design Tools offering an estimated 20 plus Design of range per charge for an affordable price.</p>
+      </div>
+      <div class="footer-links">
+        <h3>Our Design</h3>
+        <ul>
+          <li><a href="#">Adobe Illustration</a></li>
+          <li><a href="#">Commercial Design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Offers Finance</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>Current Deals</h3>
+        <ul>
+          <li><a href="#">College Discount</a></li>
+          <li><a href="#">Design Tools</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Dealer Location</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Terms Condition</a></li>
+          <li><a href="#">Search Inventory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Freelancer Services. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
