@@ -145,6 +145,10 @@
 /* ===============================
    Subscribe
    =============================== */
+   .sub{
+    text-align: center;
+    color: gray;
+   }
 .subscribe {
   background-color: var(--white);
   text-align: center;
@@ -153,5 +157,5 @@
 
 .subscribe h3 {
   color: var(--dark-bg);
-  margin-bottom: 1rem;
+  padding: 1rem;
 }
