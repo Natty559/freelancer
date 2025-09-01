@@ -4,17 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Freelancer</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="header.css">
-  <link rel="stylesheet" href="hero.css">
-  <link rel="stylesheet" href="section.css">
-  <link rel="stylesheet" href="headerhero.css">
+  <link rel="stylesheet" href="styles\style.css" />
+  <link rel="stylesheet" href="styles\header.css">
+  <link rel="stylesheet" href="styles\hero.css">
+  <link rel="stylesheet" href="styles\section.css">
+  <link rel="stylesheet" href="styles\planning.css">
+  <link rel="stylesheet" href="styles\counters.css">
+  <link rel="stylesheet" href="styles\footer.css">
 </head>
 <body>
-
   <!-- HEADER -->
   <header>
-   <header>
   <nav>
     <div class="logo">Freelancer</div>
 
@@ -24,10 +24,11 @@
  
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-      <a href="#"><button class="btn1">Register</button></a>
+      <li><a href="#" class="a">About</a></li>
+      <li><a href="#" class="a">Services</a></li>
+      <li><a href="#" class="a">Reviews</a></li>
+      <li><a href="#" class="a">Articles</a></li>
+      <a href="#" class="btn1">Register</a>
     </ul>
   </nav>
 </header>
@@ -46,11 +47,11 @@
   </section>
 
   <!-- COUNTERS -->
-  <section class="counters">
+<div class="counters">
     <div class="counter"><h2>258+</h2><p >Positive Feedback</p><br><p class="myPP">From our clients</p></div>
     <div class="counter"><h2>590k</h2><p>Project Complete</p><br><p  class="myPP">My Achievement</p></div>
     <div class="counter"><h2>28+</h2><p>Years of Experience</p><br><p  class="myPP">High quailified</p></div>
-  </section>
+ </div>
 
   <!-- SERVICES & BENEFITS -->
   <section>
@@ -66,7 +67,7 @@
 
     <div class="features">
       <div class="feature">
-        <div class="icon">
+        <div class="icona">
           <img src="images\37.png" alt="best">
         </div>
         <div>
@@ -76,7 +77,7 @@
       </div>
 
       <div class="feature">
-        <div class="icon">
+        <div class="icona">
           <img src="images\50 (1).png" alt="Excellent">
         </div>
         <div>
@@ -86,7 +87,7 @@
       </div>
 
       <div class="feature">
-        <div class="icon">
+        <div class="icona">
           <img src="images\Group.png" alt="Guaranteed">
         </div>
         <div>
@@ -96,19 +97,63 @@
       </div>
     </div>
   </section>
-
-    <h2>What we have for you</h2>
+    <h2 class="some">What we have for you</h2>
+    <p class="some">Some of the services we provide to meet your needs</p>
     <div class="cards">
-      <div class="card"><div class="icon">
-      <img src="" alfygt="card">
-    </div><h4>Corporate Web Design</h4><p>A marketing tool that is a complete solution for bringing your company within reach of your target market; Wrapped up in great UI/UX design and informative contents about your products or services.</p></div>
-      <div class="card"><h4>Illustration Graphic</h4><p>Illustrations can be used to give a complete picture of the content of a work. we are ready to help you create good and meaningful illustrations for you</p></div>
-      <div class="card"><h4>Development System</h4><p>Sell more products using a user-friendly checkout flow and simplify your sales operation with our powerful CMS. Online payment, membership to invoice, and label printing are ready in the box.</p></div>
-      <div class="card"><h4>Web Maintenance Service</h4><p>Our mission is to make your web project last for years. We want you to have peace-of-mind while running your web project knowing that our support is behind it, so you can focus on what you</p></div>
-      <div class="card"><h4>SEO Service</h4><p>Make your company's website more competitive on Google's search result by using your best keywords set. We also analyze and audit your current site before optimizing it.</p></div>
-      <div class="card"><h4>UX/UI Design</h4><p>UI design on a product aims to beautify the appearance of the product. While the UX design is designed to provide a pleasant experience when using the product.</p></div>
+   <div class="service-card">
+    <div class="icon">
+      <img src="images\user-interface 1.png" alt="Web Design Icon">
     </div>
-  </section>
+    <div class="text">
+      <h3>Corporate Web Design</h3>
+      <p>
+        A marketing tool that is a complete solution for bringing your company <br> within reach of your target market; Wrapped up in great UI/UX design and <br> informative contents about your products or services.</p>
+    </div>
+  </div>
+     <div class="service-card">
+    <div class="icon">
+      <img src="images\pen 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+        <h3>Illustration Graphic</h4>
+          <p>Illustrations can be used to give a complete picture of the content of a work. we are ready to help you create good and meaningful illustrations for you</p>
+        </div></div>
+            <div class="service-card">
+    <div class="icon">
+      <img src="images\shopping-cart (1) 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+    <h3>Development System</h3
+      ><p>Sell more products using a user-friendly checkout flow and simplify your sales operation with our powerful CMS. Online payment, membership to invoice, and label printing are ready in the box.</p>
+      </div>
+    </div>
+     <div class="service-card">
+    <div class="icon">
+      <img src="images\maintenance 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+    <h3>Web Maintenance Service</h3>
+      <p>Our mission is to make your web project last for years. We want you to have peace-of-mind while running your web project knowing that our support is behind it, so you can focus on what you</p>
+    </div>
+    </div>
+    <div class="service-card">
+    <div class="icon">
+      <img src="images\inspection 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+    <h3>SEO Service</h3>
+    <p>Make your company's website more competitive on Google's search result by using your best keywords set. We also analyze and audit your current site before optimizing it.</p>
+  </div>
+  </div>
+    <div class="service-card">
+    <div class="icon">
+      <img src="images\smartphone (1) 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+  <h3>UX/UI Design</h3>
+  <p>UI design on a product aims to beautify the appearance of the product. While the UX design is designed to provide a pleasant experience when using the product.</p></div>
+   </div>
+</div>
 <br><br>
   <!-- GALLERY -->
   <section class="section">
@@ -122,27 +167,69 @@
     </div>
   </section>
 
-  <!-- PRICING-->
   <section class="pricing">
-    <p>Our pricing</p>
-    <h2 class="h">available prices and cheap packages</h2>
-    <div class="plans">
-      <div class="plan"><h3>Basic</h3><h3 class="yes">$12/month</h3><p>Got access only 1 day</p><p>Get free drinks and snacks</p><p>Free parking for 1 month</p><br><button class="bttn">Get Started</button></div>
-      <div class="plan"><h3>Premium</h3><h3 class="yes">$24/month</h3><p>Get access only 1 day</p><p>Get free drinks and snacks</p><p>Free parking for 1 month</p><p>Private workout in a special room</p><button class="btn">Get Started</button></div>
-      <div class="plan"><h3>Super</h3><h3 class="yes">$32</h3><p>Got access only 1 day</p><p>free drinks and snacks</p><p>Free parking for 1 year</p><p>Private workout in a special room</p><p>Access to the fitness community</p><button class="bttn">Get Started</button></div>
+    <p class="subtitle">Our Pricing</p>
+    <h2>available prices and cheap <br>packages</h2>
+
+    <div class="pricing-cards">
+      <!-- Basic Plan -->
+      <div class="card">
+        <h3>Basic</h3>
+        <p class="price">$12 <span>/month</span></p>
+        <ul>
+          <li>Got access only 1 day</li>
+          <li>Get free drinks and snacks</li>
+          <li>Free parking for 1 month</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="card featured">
+        <h3>Premium</h3>
+        <p class="price">$24 <span>/month</span></p>
+        <ul>
+          <li><img src="images\tick.png" alt="">Got access only 1 day</li>
+          <li><img src="images\tick.png" alt="">Get free drinks and snacks</li>
+          <li><img src="images\tick.png" alt="">Free parking for 1 month</li>
+          <li><img src="images\tick.png" alt="">Private workout in a special room</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+
+      <!-- Super Plan -->
+      <div class="card">
+        <h3>Super</h3>
+        <p class="price">$32 <span>/month</span></p>
+        <ul>
+          <li><img src="images\tick.png" alt="">Got access only 1 day</li>
+          <li><img src="images\tick.png" alt=""> Get free drinks and snacks</li>
+          <li><img src="images\tick.png" alt=""> Free parking for 1 year</li>
+          <li><img src="images\tick.png" alt=""> Private workout in a special room</li>
+          <li><img src="images\tick.png" alt=""> Access to the fitness community</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
     </div>
   </section><br><br><br><br>
   <!-- SUBSCRIBE -->
-  <section class="subscribe">
+  <div class="subscribe">
+    <p>Subscribe now</p>
     <h3>Subscribe to get update info from us</h3>
     <button class="btn">Subscribe</button>
-  </section>
+  </div>
   <!-- FOOTER -->
   <footer class="footer">
     <div class="footer-grid">
       <div class="footer-about">
         <h3>Cartrix</h3>
         <p>An all Design Tools offering an estimated 20 plus Design of range per charge for an affordable price.</p>
+        <div class="socials">
+        <img src="images\Facebook.png" alt="">
+        <img src="images\Instagram.png" alt="">
+        <img src="images\Twitter.png" alt="">
+        <img src="images\Youtube.png" alt="">
+        </div>
       </div>
       <div class="footer-links">
         <h3>Our Design</h3>
