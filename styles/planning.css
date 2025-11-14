@@ -1,0 +1,161 @@
+.pricing {
+  padding: 3rem 1rem;
+}
+
+.pricing .subtitle {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.pricing h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+/* PRICING CARDS LAYOUT */
+.pricing-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1.5rem;
+  flex-wrap: wrap; /* allows wrapping on small screens */
+}
+
+/* CARD STYLING */
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 2rem 1.5rem;
+  flex: 1 1 300px; /* flexible width with min 300px */
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.price span {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* LIST WITH TICK IMAGES */
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+  text-align: left;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;        /* space between tick and text */
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+.card ul li img {
+  width: 16px;        /* tick size */
+  height: 16px;
+  flex-shrink: 0;     /* prevent shrinking */
+}
+
+/* BUTTON STYLING */
+.card button {
+  border: 1px solid #000;
+  border-radius: 50px;
+  background: transparent;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* FEATURED CARD (Premium) */
+.featured {
+  border: 2px solid;
+}
+
+.featured button {
+  background: #ff0066;
+  border: none;
+  color: #fff;
+}
+
+.featured button:hover {
+  background: #e6005c;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 1024px) {
+  .pricing h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing h2 {
+    font-size: 1.5rem;
+  }
+
+  .pricing-cards {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    max-width: 100%;
+    padding: 1.5rem 1rem;
+  }
+
+  .price {
+    font-size: 1.6rem;
+  }
+
+  .card ul li {
+    font-size: 0.9rem;
+  }
+}
+/* ===============================
+   Subscribe
+   =============================== */
+   .sub{
+    text-align: center;
+    color: gray;
+   }
+.subscribe {
+  background-color: var(--white);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.subscribe h3 {
+  color: var(--dark-bg);
+  padding: 1rem;
+}

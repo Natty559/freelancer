@@ -1,11 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freelancer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Freelancer</title>
+  <link rel="stylesheet" href="styles\style.css" />
+  <link rel="stylesheet" href="styles\header.css">
+  <link rel="stylesheet" href="styles\hero.css">
+  <link rel="stylesheet" href="styles\section.css">
+  <link rel="stylesheet" href="styles\planning.css">
+  <link rel="stylesheet" href="styles\counters.css">
+  <link rel="stylesheet" href="styles\footer.css">
 </head>
 <body>
-    <h1>Responsive design</h1>
+  <!-- HEADER -->
+  <header>
+  <nav>
+    <div class="logo">Freelancer</div>
+
+    <!-- Hamburger Checkbox -->
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-toggle">&#9776;</label>
+ 
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#" class="a">About</a></li>
+      <li><a href="#" class="a">Services</a></li>
+      <li><a href="#" class="a">Reviews</a></li>
+      <li><a href="#" class="a">Articles</a></li>
+      <a href="#" class="btn1">Register</a>
+    </ul>
+  </nav>
+</header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hy! I Am<br><span>Shamima Akhi</span></h1><br>
+      <p class="myP">Service Line helps you to turn your complex multisite,multivendor <br> imaging environment into a uniform and balanced operation.</p><br>
+      <button class="btn">Get Started</button>
+    </div>
+    <div class="hero-img-container">
+      <!--<div class="circle-vector"></div>-->
+      <img src="images\hero-img.jpg" alt="Shamima Akhi" class="hero-img" />
+    </div>   
+  </section>
+
+  <!-- COUNTERS -->
+<div class="counters">
+    <div class="counter"><h2>258+</h2><p >Positive Feedback</p><br><p class="myPP">From our clients</p></div>
+    <div class="counter"><h2>590k</h2><p>Project Complete</p><br><p  class="myPP">My Achievement</p></div>
+    <div class="counter"><h2>28+</h2><p>Years of Experience</p><br><p  class="myPP">High quailified</p></div>
+ </div>
+
+  <!-- SERVICES & BENEFITS -->
+  <section>
+    <div class="top">
+      <div>
+        <div class="label"><h6>Best Services</h6></div>
+        <h2>Benefits You Get When<br>Using Our Services</h2>
+      </div>
+      <p class="intro">
+        While we can customize your needs plan to suit your needs, most clients schedule regular interior services.
+      </p>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <div class="icona">
+          <img src="images\37.png" alt="best">
+        </div>
+        <div>
+          <h3>Best Quality</h3>
+          <p>It starts with our fun and easy project questionnaire where you'll provide details.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icona">
+          <img src="images\50 (1).png" alt="Excellent">
+        </div>
+        <div>
+          <h3>Excellent Design</h3>
+          <p>After getting matched, your designer will message with you to collaborate on ideas.</p>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icona">
+          <img src="images\Group.png" alt="Guaranteed">
+        </div>
+        <div>
+          <h3>Guaranteed Shipping</h3>
+          <p>Designer incorporates feedback into the final room design and layout with.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <h2 class="some">What we have for you</h2>
+    <p class="some">Some of the services we provide to meet your needs</p>
+    <div class="cards">
+   <div class="service-card">
+    <div class="icon">
+      <img src="images\user-interface 1.png" alt="Web Design Icon">
+    </div>
+    <div class="text">
+      <h3>Corporate Web Design</h3>
+      <p>
+        A marketing tool that is a complete solution for bringing your company <br> within reach of your target market; Wrapped up in great UI/UX design and <br> informative contents about your products or services.</p>
+    </div>
+  </div>
+     <div class="service-card">
+    <div class="icon">
+      <img src="images\pen 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+        <h3>Illustration Graphic</h4>
+          <p>Illustrations can be used to give a complete picture of the content of a work. we are ready to help you create good and meaningful illustrations for you</p>
+        </div></div>
+            <div class="service-card">
+    <div class="icon">
+      <img src="images\shopping-cart (1) 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+    <h3>Development System</h3
+      ><p>Sell more products using a user-friendly checkout flow and simplify your sales operation with our powerful CMS. Online payment, membership to invoice, and label printing are ready in the box.</p>
+      </div>
+    </div>
+     <div class="service-card">
+    <div class="icon">
+      <img src="images\maintenance 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+    <h3>Web Maintenance Service</h3>
+      <p>Our mission is to make your web project last for years. We want you to have peace-of-mind while running your web project knowing that our support is behind it, so you can focus on what you</p>
+    </div>
+    </div>
+    <div class="service-card">
+    <div class="icon">
+      <img src="images\inspection 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+    <h3>SEO Service</h3>
+    <p>Make your company's website more competitive on Google's search result by using your best keywords set. We also analyze and audit your current site before optimizing it.</p>
+  </div>
+  </div>
+    <div class="service-card">
+    <div class="icon">
+      <img src="images\smartphone (1) 1.png" alt="Web Design Icon">
+    </div>
+      <div class="text">
+  <h3>UX/UI Design</h3>
+  <p>UI design on a product aims to beautify the appearance of the product. While the UX design is designed to provide a pleasant experience when using the product.</p></div>
+   </div>
+</div>
+<br><br>
+  <!-- GALLERY -->
+  <section class="section">
+    <h2>Some of my Creative work</h2><br>
+    <p class="mine">An all electric vehicle offering an estimated 20 plus miles of range per charge for an affordable price is how we define but passion and persistence are the principles used to accomplish it</p><br>
+    <div class="gallery">
+      <img src="images\Work1.jpg" alt="Work 1" />
+      <img src="images\Work2.jpg" alt="Work 2" />
+      <img src="images\Work3.jpg" alt="Work 3" />
+      <img src="images\Work4.jpg" alt="Work 4" />
+    </div>
+  </section>
+
+  <section class="pricing">
+    <p class="subtitle">Our Pricing</p>
+    <h2>available prices and cheap <br>packages</h2>
+
+    <div class="pricing-cards">
+      <!-- Basic Plan -->
+      <div class="card">
+        <h3>Basic</h3>
+        <p class="price">$12 <span>/month</span></p>
+        <ul>
+          <li>Got access only 1 day</li>
+          <li>Get free drinks and snacks</li>
+          <li>Free parking for 1 month</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="card featured">
+        <h3>Premium</h3>
+        <p class="price">$24 <span>/month</span></p>
+        <ul>
+          <li><img src="images\tick.png" alt="">Got access only 1 day</li>
+          <li><img src="images\tick.png" alt="">Get free drinks and snacks</li>
+          <li><img src="images\tick.png" alt="">Free parking for 1 month</li>
+          <li><img src="images\tick.png" alt="">Private workout in a special room</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+
+      <!-- Super Plan -->
+      <div class="card">
+        <h3>Super</h3>
+        <p class="price">$32 <span>/month</span></p>
+        <ul>
+          <li><img src="images\tick.png" alt="">Got access only 1 day</li>
+          <li><img src="images\tick.png" alt=""> Get free drinks and snacks</li>
+          <li><img src="images\tick.png" alt=""> Free parking for 1 year</li>
+          <li><img src="images\tick.png" alt=""> Private workout in a special room</li>
+          <li><img src="images\tick.png" alt=""> Access to the fitness community</li>
+        </ul>
+        <button>Get Started</button>
+      </div>
+    </div>
+  </section><br><br><br><br>
+  <!-- SUBSCRIBE -->
+  <div class="subscribe">
+    <p class="sub">Subscribe now</p>
+    <h3>Subscribe to get update info from us</h3>
+    <button class="btn">Subscribe</button>
+  </div>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <h3>Cartrix</h3>
+        <p>An all Design Tools offering an estimated 20 plus Design of range per charge for an affordable price.</p>
+        <div class="socials">
+        <img src="images\Facebook.png" alt="">
+        <img src="images\Instagram.png" alt="">
+        <img src="images\Twitter.png" alt="">
+        <img src="images\Youtube.png" alt="">
+        </div>
+      </div>
+      <div class="footer-links">
+        <h3>Our Design</h3>
+        <ul>
+          <li><a href="#">Adobe Illustration</a></li>
+          <li><a href="#">Commercial Design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Offers Finance</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>Current Deals</h3>
+        <ul>
+          <li><a href="#">College Discount</a></li>
+          <li><a href="#">Design Tools</a></li>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Dealer Location</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Terms Condition</a></li>
+          <li><a href="#">Search Inventory</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Freelancer Services. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
